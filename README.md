@@ -112,4 +112,6 @@ Schritt 3 — Definieren des Datenmodells und Erstellen von Datenbanktabellen
 \dn - List schemas
 \dt - List tables inside public schemas
 \dt schema1.* - List tables inside particular schemas. For eg: 'schema1'.
+\c my-blog
+# select * from "Post";
 ```
