@@ -1,5 +1,16 @@
 # nodejs-blog-typescript-prisma-crud
-
+## Instrucciones
+  ### Para desarrollo ejecutamos
+          
+         ```
+         C:\Users\josep\node\my-blog>npx ts-node src/index.ts
+         ```
+         
+   ### Para produccion ejecutamos
+          
+         ```
+       C:\Users\josep\node\my-blog\src>npx tsc
+         ```      
 Einrichten von Prisma mit PostgreSQL
 In diesem Schritt installieren Sie die Prisma-CLI , erstellen Ihre erste Prisma-Schemadatei, richten PostgreSQL mit Docker ein und verbinden Prisma damit. Das Prisma-Schema ist die wichtigste Konfigurationsdatei für Ihr Prisma-Setup und enthält das Datenbankschema.
 
