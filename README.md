@@ -104,3 +104,12 @@ Wenn Sie damit fertig sind, speichern und schließen Sie die Datei.
 In diesem Schritt haben Sie Ihre PostgreSQL-Datenbank mit Docker eingerichtet, die Prisma-CLI installiert und Prisma über eine Umgebungsvariable mit der Datenbank verbunden. Im nächsten Abschnitt definieren Sie Ihr Datenmodell und erstellen Ihre Datenbanktabellen.
 
 Schritt 3 — Definieren des Datenmodells und Erstellen von Datenbanktabellen
+
+## postgres -comandos
+```
+\l - Display database
+\c - Connect to database
+\dn - List schemas
+\dt - List tables inside public schemas
+\dt schema1.* - List tables inside particular schemas. For eg: 'schema1'.
+```
